@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form id="flashdrivecount">
+            <label for="fdsize"></label>
+            <input name="fdsize" type="number" placeholder="5 Gb">
+            <label for="filesize"></label>
+            <input name="filesize" type="number" placeholder="820 Mb">
+            <button type="submit">Submit</button>
+        </form>
+        <span id="files_result"></span>
+        <form id="chococount">
+            <label for="money">How much money do you have?</label>
+            <input name="money" type="number" placeholder="500 UAH">
+            <label for="choco_price">how much does a chocolate bar cost?</label>
+            <input name="choco_price" type="number" placeholder="80 UAH">
+            <button type="submit">Submit</button>
+        </form>
+        <span id="choco_result"></span>
+
+    </section>
+    <section>
+        <label for="deposit">Enter a sum of deposit at a 5% annual rate of return</label>
+        <input type="number" id="deposit">
+        <button onclick="getDepositProfit()">Submit</button>
+        <span id="deposit_result"></span>
+    </section>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
